@@ -1,0 +1,34 @@
+.item {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.statuus {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.statuus_true {
+  background-color: rgb(78, 225, 78);
+  composes: statuus;
+}
+
+.statuus_false {
+  background-color: rgb(235, 68, 68);
+  composes: statuus;
+}
+
+.namee {
+  color: rgb(20, 1, 1);
+  font-weight: 500;
+  font-size: 15px;
+}

@@ -1,0 +1,22 @@
+.transaction_history {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid rgb(10, 126, 228);
+  color: #fff;
+  height: 50px;
+  width: 130px;
+  background-color: rgb(66, 163, 247);
+}
+
+td {
+  background-color: rgb(191, 216, 238);
+  color: rgb(20, 1, 1);
+  border: 1px solid rgb(111, 149, 182);
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(135, 127, 127);
+  width: 300px;
+  height: 250px;
+  background-color: rgb(244, 242, 242);
+}
+
+.profile {
+  color: rgb(20, 1, 1);
+  width: 280px;
+  height: 230px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.namee {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.tag,
+.location {
+  color: rgb(108, 102, 102);
+  font-size: 500;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.label {
+  color: rgb(108, 102, 102);
+  font-size: 500;
+  font-size: 15px;
+}
+
+li {
+  height: 50px;
+  list-style: none;
+  width: 33%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border-left: 1px solid rgb(20, 1, 1);
+  border-right: 1px solid rgb(20, 1, 1);
+}
+
+li:first-child {
+  border-left: 2px solid rgb(20, 1, 1);
+}
+
+li:last-child {
+  border-right: 2px solid rgb(20, 1, 1);
+}
+
+.stats {
+  margin-top: 5px;
+  display: flex;
+}
+
+.quantity {
+  color: rgb(20, 1, 1);
+  font-size: 15px;
+  font-weight: 500;
+}
